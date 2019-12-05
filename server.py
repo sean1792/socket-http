@@ -2,9 +2,9 @@ import socket
 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 adr = socket.gethostbyname(socket.gethostname())
-print('port:',end='')
-port=int(input())
-
+#print('port:',end='')
+#port=int(input())
+port=80
 
 #port = 5566
 
